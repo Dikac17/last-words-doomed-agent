@@ -1,5 +1,12 @@
+# This file tells git which generated, local, or throwaway files to leave out of the entry so only the real source gets tracked.
 *-kit/
-kit.tar.gz
+*.tar.gz
+*.makefun-bundle
+node_modules/
+dist/
+build/
 out/
 __pycache__/
-node_modules/
+*.pyc
+.DS_Store
+*.log
